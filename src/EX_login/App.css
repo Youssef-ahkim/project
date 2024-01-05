@@ -1,0 +1,36 @@
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./wallpaperflare.com_wallpaper\ \(5\).jpg');
+}
+
+
+
+
+.form{
+    border: 1px black solid;
+    border-radius: 2em;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 45%;
+}
+
+label{
+    font-size: x-large;
+    font-family: initial;
+}
+
+.app .form .btn{
+    background-color: rgb(170, 170, 170);
+    border: 1px solid black;
+}
+.app .form .text:focus{
+    box-shadow: 3px 3px 10px rgb(77, 77, 77);
+    border-color: black;
+}

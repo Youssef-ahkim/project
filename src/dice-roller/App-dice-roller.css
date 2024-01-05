@@ -1,0 +1,45 @@
+/* App-dice-roller.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dice {
+  width: 250px; /* Adjust the size of the dice image */
+}
+
+.spacer {
+  width: 20px; /* Adjust the spacing between dice */
+  display: inline-block;
+}
+
+.roll-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0); }
+  25% { transform: rotate(15deg); }
+  50% { transform: rotate(-15deg); }
+  75% { transform: rotate(15deg); }
+  100% { transform: rotate(0); }
+}
+
+.shake {
+  animation: shake 0.5s ease-in-out;
+}

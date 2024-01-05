@@ -1,0 +1,149 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.App{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.header ul li a{
+    color: black;
+    display: inline;
+    text-decoration: none;
+}
+.header{
+    width: 90vw;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header button{
+    border-radius: 0;
+    background-color: #D01C28;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    height: 31px;
+    width: 75px;
+}
+
+.frame1{
+
+    width: 100vw;
+    height: 600px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.frame2{
+    
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.frame2 .text1{
+    font-family: Poppins;
+    font-size: 108px;
+    font-weight: 1000;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: left;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 650px;
+}
+
+.frame2 .text2{
+    width: 404px;
+    font-family: Poppins;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+    color: #5A5959;
+    background-color: white;
+}
+
+.buttons{
+    width: 335px;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-now{
+    height: 100%;
+    width: 141px;
+    background-color: #D01C28;
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 0;
+}
+
+.category{
+    height: 100%;
+    width: 141px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5A5959;
+    border: 2px solid #5A5959;
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 131px;
+    gap: 16px;
+}
+
+.shops{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 100%;
+    gap: 16px;
+}
+
+.shop span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    color: #5A5959;
+}

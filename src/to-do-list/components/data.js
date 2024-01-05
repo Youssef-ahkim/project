@@ -1,0 +1,1 @@
+export const tasks = ["doig homewoek", "cooking dinner", "going out" , "go to sleep"];
