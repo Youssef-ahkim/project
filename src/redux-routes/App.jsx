@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Hashrouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import AddBook from "./components/addBook";
 import bookList from "./components/booksList";
@@ -13,14 +13,14 @@ const App = () => {
   return (
     <Provider store={store}>
       
-      <BrowserRouter>
+      <Hashrouter>
       <Routes>
         <Route path="/"  exact Component={LoginPage}  />
         <Route path="/Home"  exact Component={Home}  />
         <Route path="/addBook" Component={AddBook} />
         <Route path="/bookList" Component={bookList} />
       </Routes>
-    </BrowserRouter>
+    </Hashrouter>
   
        
     </Provider>
